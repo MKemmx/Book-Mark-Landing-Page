@@ -34,6 +34,7 @@
       align-items: center;
 
       .login-btn {
+        cursor: pointer;
         background-color: hsl(0, 94%, 66%);
         border-radius: 6px;
         padding: 0.5rem 1.5rem;
@@ -389,12 +390,20 @@
         }
 
         .btn {
+          cursor: pointer;
           background-color: hsl(231, 69%, 60%);
           outline: none;
           border: none;
           border-radius: 6px;
-          padding: 12px 24px;
+          padding: 12px 1.6rem;
           color: #fff;
+          border: 2px hsl(231, 69%, 60%) solid;
+
+          &:hover {
+            background-color: #fff;
+            border: 2px hsl(231, 69%, 60%) solid;
+            color: hsl(231, 69%, 60%);
+          }
         }
       }
     }
@@ -643,6 +652,7 @@
     margin-inline: auto;
 
     .btn {
+      cursor: pointer;
       background-color: hsl(231, 69%, 60%);
       outline: none;
       border: none;
@@ -650,6 +660,13 @@
       padding: 12px 24px;
       color: #fff;
       margin-top: 2rem;
+      border: 2px hsl(231, 69%, 60%) solid;
+
+      &:hover {
+        background-color: #fff;
+        border: 2px hsl(231, 69%, 60%) solid;
+        color: hsl(231, 69%, 60%);
+      }
     }
 
     .faq-header {

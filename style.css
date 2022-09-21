@@ -32,6 +32,7 @@
   align-items: center;
 }
 .navbar .container .menu-container .login-btn {
+  cursor: pointer;
   background-color: hsl(0deg, 94%, 66%);
   border-radius: 6px;
   padding: 0.5rem 1.5rem;
@@ -327,12 +328,19 @@
   color: gray;
 }
 .feature .container .feature-box .feature-text .btn {
+  cursor: pointer;
   background-color: hsl(231deg, 69%, 60%);
   outline: none;
   border: none;
   border-radius: 6px;
-  padding: 12px 24px;
+  padding: 12px 1.6rem;
   color: #fff;
+  border: 2px hsl(231deg, 69%, 60%) solid;
+}
+.feature .container .feature-box .feature-text .btn:hover {
+  background-color: #fff;
+  border: 2px hsl(231deg, 69%, 60%) solid;
+  color: hsl(231deg, 69%, 60%);
 }
 @media screen and (max-width: 1500px) {
   .feature .container {
@@ -535,6 +543,7 @@
   margin-inline: auto;
 }
 .faq .container .btn {
+  cursor: pointer;
   background-color: hsl(231deg, 69%, 60%);
   outline: none;
   border: none;
@@ -542,6 +551,12 @@
   padding: 12px 24px;
   color: #fff;
   margin-top: 2rem;
+  border: 2px hsl(231deg, 69%, 60%) solid;
+}
+.faq .container .btn:hover {
+  background-color: #fff;
+  border: 2px hsl(231deg, 69%, 60%) solid;
+  color: hsl(231deg, 69%, 60%);
 }
 .faq .container .faq-header {
   padding: 1rem 0;
@@ -756,4 +771,4 @@
 .chevron.bottom:before {
   top: 0;
   transform: rotate(135deg);
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

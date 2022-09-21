@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Rubik", system-ui;
   list-style: none;
+  outline: 2px limegreen solid;
 }
 
 .hamburger {
@@ -672,16 +673,23 @@
   color: hsl(0deg, 94%, 66%);
 }
 @media screen and (max-width: 515px) {
+  .search .container {
+    width: 100%;
+  }
+  .search .container .box-2 h1 {
+    font-size: 1.5rem;
+  }
   .search .container .box-3 {
     flex-direction: column;
+    width: 100%;
   }
   .search .container .box-3 .email-input {
-    width: 90%;
+    width: 80%;
     margin-bottom: 1rem;
   }
   .search .container .box-3 .btn {
     padding: 15px 20px;
-    width: 90%;
+    width: 80%;
   }
 }
 

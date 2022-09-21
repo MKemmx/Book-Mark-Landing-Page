@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Rubik", system-ui;
   list-style: none;
-  // outline: 2px limegreen solid;
+  outline: 2px limegreen solid;
 }
 
 .hamburger {
@@ -805,17 +805,26 @@
 
   @media screen and (max-width: 515px) {
     .container {
+      width: 100%;
+
+      .box-2 {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+
       .box-3 {
         flex-direction: column;
+        width: 100%;
 
         .email-input {
-          width: 90%;
+          width: 80%;
           margin-bottom: 1rem;
         }
 
         .btn {
           padding: 15px 20px;
-          width: 90%;
+          width: 80%;
         }
       }
     }

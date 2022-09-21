@@ -594,7 +594,7 @@
 }
 .faq .container .faq-items-container .faq-items .faq-content h1 {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .faq .container .faq-items-container .faq-items .faq-content h1:hover {
   color: #eb6629;
@@ -604,6 +604,10 @@
   height: 0;
   opacity: 0;
   transition: 0.3s ease-in-out all;
+}
+.faq .container .faq-items-container .faq-items .faq-text p {
+  color: gray;
+  font-size: 1rem;
 }
 .faq .container .faq-items-container .faq-items .faq-text.active {
   height: auto;
